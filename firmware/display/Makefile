@@ -2,7 +2,7 @@ PROJECT_NAME     := display_firmware
 TARGETS          := display_firmware
 
 # This is the user visible string for the version
-VERSION_STRING := 0.21.0
+VERSION_STRING := 0.20.1
 
 # This is the expected version of the motor firmware. Display will stop to work with correct TSDZ2 firmware version
 MOTOR_FIRMWARE_MAJOR := 1
@@ -15,7 +15,7 @@ ifdef MOTOR_TSDZ2
 $(warning )
 $(warning MOTOR: TSDZ2)
 MOTOR = TSDZ2
-CFLAGS = -DMOTOR_TSDZ2
+CFLAGS = -DMOTOR_TSDZ2 -DTSDZ2
 endif
 
 ifdef MOTOR_BAFANG
