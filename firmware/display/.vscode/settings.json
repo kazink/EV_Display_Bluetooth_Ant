@@ -12,5 +12,6 @@
       "type_traits": "c",
       "utility": "c",
       "stdbool.h": "c"
-    }
+    },
+    "cmake.configureOnOpen": false
 }

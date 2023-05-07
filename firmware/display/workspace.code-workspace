@@ -18,7 +18,8 @@
       "pins.h": "c",
       "functional": "c",
       "nrf_gpio.h": "c",
-      "stdlib.h": "c"
+      "stdlib.h": "c",
+      "ble_services.h": "c"
     }
   }
 }
